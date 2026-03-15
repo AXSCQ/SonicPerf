@@ -1,0 +1,30 @@
+{
+    "name": "sonicperf",
+    "version": "1.0.0",
+    "description": "Performance optimization utilities for audio-reactive web applications. Lazy loading, animation throttling, resource management.",
+    "main": "src/sonicperf.js",
+    "module": "src/sonicperf.js",
+    "type": "module",
+    "files": [
+        "src/",
+        "README.md",
+        "LICENSE"
+    ],
+    "scripts": {
+        "build": "esbuild src/sonicperf.js --bundle --minify --format=esm --outfile=dist/sonicperf.min.js",
+        "dev": "esbuild src/sonicperf.js --bundle --format=esm --outfile=dist/sonicperf.js --watch"
+    },
+    "keywords": [
+        "performance",
+        "lazy-loading",
+        "throttle",
+        "animation",
+        "audio",
+        "optimization"
+    ],
+    "author": "axscq",
+    "license": "MIT",
+    "devDependencies": {
+        "esbuild": "^0.20.0"
+    }
+}
