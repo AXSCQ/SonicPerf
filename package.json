@@ -1,6 +1,6 @@
 {
     "name": "sonicperf",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Performance toolkit for audio-reactive web apps. FPS throttling, lazy audio loading, Web Audio API resource management and visibility auto-pause.",
     "main": "src/sonicperf.js",
     "module": "src/sonicperf.js",
