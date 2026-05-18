@@ -15,12 +15,18 @@
         "dev": "esbuild src/sonicperf.js --bundle --format=esm --outfile=dist/sonicperf.js --watch"
     },
     "keywords": [
-        "performance",
-        "lazy-loading",
-        "throttle",
-        "animation",
-        "audio",
-        "optimization"
+        "audio reactive performance",
+        "animation FPS throttle",
+        "Web Audio API optimization",
+        "lazy audio loader",
+        "optimización animaciones web",
+        "visibility auto pause",
+        "resource manager web audio",
+        "sonicmotion plugin",
+        "frontend performance toolkit",
+        "audio web app performance JS",
+        "requestAnimationFrame throttle",
+        "sonicperf"
     ],
     "author": "axscq",
     "license": "MIT",
